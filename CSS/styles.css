@@ -1,0 +1,190 @@
+body, html, div, blockquote, img, label, p, h1, h2, h3, h4, h5, h6, pre, ul, ol,
+li, dl, dt, dd, form, a, fieldset, input, th, td
+{
+margin: 0; padding: 0; border: 0; outline: none;
+}
+
+body
+{
+line-height: 1;
+font-size: 88% /* Decide for yourself if you want to include this. */;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+font-size: 100%;
+padding: .6em 0;
+margin: 0 15px;
+}
+
+ul, ol
+{
+list-style: none;
+}
+
+a
+{
+color: black;
+text-decoration: none;
+}
+
+a:hover
+{
+text-decoration: underline;
+}
+
+.floatLeft
+{
+float: left;
+padding: .5em .5em .5em 0;
+}
+
+.floatRight
+{
+float: right;
+padding: .5em 0 .5em .5em;
+}
+
+/* RESET STYLESHEET ENDED HERE */
+
+.body h1 {
+  font-family: 'Big Shoulders Display', sans-serif;
+  font-weight: 700;
+  font-size: 35px;
+}
+
+.body p {
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.container {
+  margin: 123px 266px;
+}
+
+/* sedans section stylesheet start here */
+
+.sedans-section {
+  background-color: rgb(227,136,38);
+  width: 278px;
+  height: 450px;
+  display: block;
+  float: left;
+}
+
+.sedans-icon {
+  padding: 42px;
+}
+
+.sedans-section h1 {
+  padding: 0 42px 29px 42px;
+  color: white;
+  margin-left: 0px;
+}
+
+.sedans-section p {
+  padding: 0 42px 42px 42px;
+  color: rgb(243,220,201);
+}
+
+.sedans-btn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #e38826;
+  background: #f2f2f2;
+  padding: 19px 48px 19px 48px;
+  text-decoration: none;
+  border-width: 0px;
+  margin: 0 auto 42px 42px;
+}
+
+/* suvs section stylesheet start here */
+
+.suvs-section {
+  background-color: rgb(0,105,112);
+  width: 278px;
+  height: 450px;
+  display: block;
+  float: left;
+}
+
+.suvs-icon {
+  padding: 42px;
+}
+
+.suvs-section h1 {
+  padding: 0 42px 29px 42px;
+  color: white;
+  margin-left: 0px;
+}
+
+.suvs-section p {
+  padding: 0 42px 42px 42px;
+  color: rgb(179,217,216);
+}
+
+.suvs-btn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: rgb(48,116,121);
+  background: #f2f2f2;
+  padding: 19px 48px 19px 48px;
+  text-decoration: none;
+  border-width: 0px;
+  margin: 0 auto 42px 42px;
+}
+
+/* luxury section stylesheet start here */
+
+.luxury-section {
+  background-color: rgb(0,66,65);
+  width: 278px;
+  height: 450px;
+  display: block;
+  float: left;
+}
+
+.luxury-icon {
+  padding: 42px;
+}
+
+.luxury-section h1 {
+  padding: 0 42px 29px 42px;
+  color: white;
+  margin-left: 0px;
+}
+
+.luxury-section p {
+  padding: 0 42px 42px 42px;
+  color: rgb(185,203,202);
+}
+
+.luxury-btn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: rgb(53,104,103);
+  background: #f2f2f2;
+  padding: 19px 48px 19px 48px;
+  text-decoration: none;
+  border-width: 0px;
+  margin: 0 auto 42px 42px;
+}
+
+/* attribution stylesheet start here */
+
+.attribution { 
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
